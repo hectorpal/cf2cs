@@ -2,14 +2,14 @@
 
 run `./cf2cs` for help
 
-If just want to run it for solving conformant planning problems, please use in conjuntion with [<https://github.com/hectorpal/translator-conformant][translator>], a conformant planner.
+If just want to run it for solving conformant planning problems, please use in conjuntion with [translator](https://github.com/hectorpal/translator-conformant), a conformant planner.
 
 If you make changes to this code, just compile and copy the new `cf2cs` to `$TRANSLATOR_HOME/translator`. `Translator` should available in the same place you downloaded this file.
 
 cf2cs assumes $TRANSLATOR_HOME is well set and look for `relsat`, `c2d_220` and `models` there.
 
 - relsat is a SAT solver available here: <http://www.bayardo.org/resources.html>
-- c2d_220 is a compiler fron CNF to d-DNNF available here: <http://reasoning.cs.ucla.edu/c2d/>
+- c2d_220 is a compiler fron CNF to d-DNNF available here: <http://reasoning.cs.ucla.edu/c2d>
 
 Some third-party software was included:
 
